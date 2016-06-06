@@ -43,7 +43,7 @@ def getList(input_str):
         M_list = ['M'] * M_num
         outpout_str.append('B')
         outpout_str.extend(M_list)
-        outpout_str.append('S')
+        outpout_str.append('E')#it should be 'BMMMMMMMME' not   'BMMMMMMMMS'
     return outpout_str
 
 def Output():
